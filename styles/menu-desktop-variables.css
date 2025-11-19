@@ -1,0 +1,117 @@
+/* start menu desktop variables */
+
+
+/* start menu desktop header variables */
+
+:root {
+    --menu-desktop-header-p: 8px;
+}
+
+:root {
+    --menu-desktop-header-bg: whitesmoke;
+}
+
+:root {
+    --menu-desktop-header-h1-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --menu-desktop-header-h1-color: orangered;
+}
+
+:root {
+    --menu-desktop-header-input-mr: 50%;
+}
+
+:root {
+    --menu-desktop-header-input-p: 8px;
+}
+
+:root {
+    --menu-desktop-header-input-border-radius: 32px;
+}
+
+:root {
+    --menu-desktop-header-input-color: blue;
+}
+
+:root {
+    --order-now-desktop-header-i-color: lightgray;
+}
+
+:root {
+    --menu-desktop-header-i-font-size: 24px;
+}
+
+/* end menu desktop header variables */
+
+
+
+
+
+/* start menu desktop main variables */
+
+:root {
+    --menu-desktop-main-mt: 10%;
+}
+
+:root {
+    --menu-desktop-main-mb: 10%;
+}
+
+:root {
+    --menu-desktop-main-h1-font-size: 2.5rem;
+}
+
+:root {
+    --menu-desktop-main-h1-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --menu-desktop-main-h2-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --menu-desktop-main-i-font-size: 24px;
+}
+
+/* end menu desktop main variables */
+
+
+
+
+
+/* start menu desktop footer variables */
+
+:root {
+    --desktop-footer-mt: 64px;
+}
+
+:root {
+    --desktop-footer-pb: 48px;
+}
+
+:root {
+    --desktop-footer-links-font-size: 0.5rem;
+}
+
+:root {
+    --desktop-footer-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --desktop-footer-main-mt: 48px;
+}
+
+:root {
+    --desktop-footer-main-content-font-size: 1rem;
+}
+
+:root {
+    --desktop-footer-btm-font-size: 1rem;
+}
+
+/* end menu desktop footer variables */
+
+
+/* end menu desktop variables */
