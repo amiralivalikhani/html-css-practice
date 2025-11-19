@@ -1,0 +1,82 @@
+/* start nobile header */
+
+
+@media screen and (max-width: 500px) {
+
+
+
+    section.desktop-header {
+        display: none;
+    }
+
+
+    section.mobile-header {
+        position: relative;
+        padding-top: var(--mobile-header-pt);
+        color: var(--mobile-header-color);
+    }
+
+
+    div#mobile-header-nav div {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    div#logo {
+        flex: 1.7;
+    }
+
+
+    div#equals {
+        flex: 1;
+    }
+
+
+    div#equals i {
+        font-size: 48px;
+    }
+
+
+    div#mobile-header-content {
+        width: 80%;
+        margin: auto;
+        margin-top: var(--mobile-header-content-mt);
+        text-align: center;
+        font-size: var(--mobile-header-content-font-size);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+    div#mobile-header-button-see-menu {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        color: var(--mobile-header-color);
+        position: relative;
+        border-top: 5px double black;
+        border-bottom: 5px double black;
+        border-radius: 50%;
+        animation: animation 1s infinite;
+    }
+
+
+    @keyframes animation {
+        0% {
+            border-color: black;
+        }
+
+        50% {
+            border-color: wheat;
+        }
+
+        100% {
+            border-color: black;
+        }
+    }
+
+
+}
+
+
+/*  end mobile header */
