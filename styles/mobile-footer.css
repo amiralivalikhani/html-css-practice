@@ -1,0 +1,78 @@
+/* start mobile footer */
+
+
+@media screen and (max-width: 500px) {
+
+
+    section.desktop-footer {
+        display: none;
+    }
+
+
+    section.mobile-footer {
+        margin-top: var(--mobile-footer-mt);
+        font-size: var(--mobile-footer-links-font-size);
+        font-family: var(--mobile-footer-font-family);
+    }
+
+
+    div#mobile-footer-instagram-id {
+        flex-direction: column;
+    }
+
+
+    div#mobile-footer-instagram-id i {
+        font-size: 48px;
+    }
+
+
+    div#mobile-footer-logo {
+        margin-top: var(--mobile-footer-logo-mt);
+    }
+
+
+    div#mobile-footer-top-nav {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    div#mobile-footer-main-content {
+        margin-top: var(--mobile-footer-main-content-mt);
+        padding: var(--mobile-footer-main-content-p);
+        background-image: url(../images-footer/order-bg-transparent.webp);
+        background-position: bottom;
+        position: relative;
+    }
+
+
+    div#mobile-footer-main-content img {
+        width: 70%;
+        position: absolute;
+        right: 0;
+        top: -20px;
+    }
+
+
+    div#mobile-footer-main-content-top-box,
+    #mobile-footer-main-content-btm-box {
+        color: var(--mobile-footer-main-content-boxs-color);
+        font-size: var(--mobile-footer-main-content-boxs-font-size);
+        text-align: center;
+    }
+
+
+    div#mobile-footer-btm div {
+        text-align: center;
+        margin: 32px auto;
+        font-size: var(--mobile-footer-btm-content-boxs-font-size);
+    }
+
+
+}
+
+
+/* end mobile fotter */
