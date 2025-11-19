@@ -1,0 +1,101 @@
+/* start menu mobile variables */
+
+
+/* start menu mobile header variables */
+
+:root {
+    --menu-mobile-header-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --menu-mobile-header-color: orangered;
+}
+
+:root {
+    --menu-mobile-header-i-font-size: 22px;
+}
+
+/* end menu mobile header variables */
+
+
+
+
+
+/* start menu mobile main variables */
+
+:root {
+    --menu-mobile-main-content-font-size: 0.8rem;
+}
+
+:root {
+    --menu-mobile-main-content-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --menu-mobile-main-box-font-size: 1.5rem;
+}
+
+:root {
+    --menu-mobile-main-box-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --menu-mobile-main-body-container-p: 10px;
+}
+
+:root {
+    --menu-mobile-main-body-container-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --menu-mobile-main-body-container-i-font-size: 24px;
+}
+
+/* end menu mobile main variables */
+
+
+
+
+
+/* start menu mobile footer variables */
+
+:root {
+    --mobile-footer-mt: 64px;
+}
+
+:root {
+    --mobile-footer-links-font-size: 0.5rem;
+}
+
+:root {
+    --mobile-footer-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --mobile-footer-logo-mt: 48px;
+}
+
+:root {
+    --mobile-footer-main-content-mt: 32px;
+}
+
+:root {
+    --mobile-footer-main-content-p: 32px;
+}
+
+:root {
+    --mobile-footer-main-content-boxs-color: #fefefe;
+}
+
+:root {
+    --mobile-footer-main-content-boxs-font-size: 0.5rem;
+}
+
+:root {
+    --mobile-footer-btm-content-boxs-font-size: 0.8rem;
+}
+
+/* end menu mobile footer variables */
+
+
+/* end menu mobile variables */
