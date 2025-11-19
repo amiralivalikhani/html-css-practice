@@ -1,0 +1,54 @@
+/* start mobile main */
+
+
+@media screen and (max-width: 500px) {
+
+
+    section.desktop-main {
+        display: none;
+    }
+
+
+    section.mobile-main {
+        margin: var(--mobile-main-margin-zero);
+        padding-top: var(--mobile-main-pt);
+        text-align: center;
+        background-image: url(../images-main/falafel-bowl-bg.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    div#mobile-main-content {
+        font-size: var(--mobile-main-content-font-size);
+        font-family: var(--mobile-main-font-family);
+    }
+
+
+    div#mobile-main-models-container {
+        margin-top: var(--mobile-main-models-container-mt);
+        display: flex;
+        overflow-x: auto;
+        scrollbar-width: none;
+        gap: var(--mobile-main-models-container-gaps);
+        padding: var(--mobile-main-models-container-paddinig);
+    }
+
+
+    figure {
+        width: 100%;
+        margin: auto;
+    }
+
+
+    figure h2 {
+        font-size: var(--mobile-main-figure-font-size);
+        font-family: var(--mobile-main-font-family);
+    }
+
+
+}
+
+
+/* end mobile main */
