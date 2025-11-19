@@ -1,0 +1,129 @@
+/* start menu desktop main */
+
+
+@media screen and (min-width: 500px) {
+
+
+    section.menu-mobile-main {
+        display: none;
+    }
+
+
+    section.menu-desktop-main {
+        width: 100%;
+        height: 100vh;
+        margin-top: var(--menu-desktop-main-mt);
+        margin-bottom: var(--menu-desktop-main-mb);
+    }
+
+
+    div#menu-desktop-main-content {
+        width: 70%;
+        margin: auto;
+    }
+
+
+    div#menu-desktop-main-content h1 {
+        font-size: var(--menu-desktop-main-h1-font-size);
+        font-family: var(--menu-desktop-main-h1-font-family);
+    }
+
+
+    div#menu-desktop-main-boxs {
+        width: 70%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+    }
+
+
+    div#menu-desktop-main-left-box {
+        width: 20%;
+        height: 100%;
+        background-color: whitesmoke;
+    }
+
+
+    div#menu-desktop-main-left-box h2 {
+        margin-left: 0.5rem;
+        font-size: 1rem;
+        font-family: var(--menu-desktop-main-h2-font-family);
+    }
+
+
+    div#menu-desktop-main-right-box {
+        width: 80%;
+        height: 100%;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+
+
+    div#menu-desktop-main-right-box h2 {
+        margin-left: 32px;
+        font-size: 1.5rem;
+        font-family: var(--menu-desktop-main-h2-font-family);
+    }
+
+
+    div#menu-desktop-main-right-box-models {
+        width: 95%;
+        margin: auto;
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+
+    div#card {
+        width: 100%;
+        aspect-ratio: 1 / 0.4;
+        display: flex;
+        border: 1px solid lightgray;
+        border-radius: 6px;
+    }
+
+
+    div#body-container {
+        width: 65%;
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        font-family: var(--menu-desktop-main-h2-font-family);
+    }
+
+
+    div#body-container div {
+        display: flex;
+        align-items: center;
+    }
+
+
+    #name,
+    #price,
+    #plus {
+        flex: 1;
+    }
+
+
+    div#plus i {
+        font-size: var(--menu-desktop-main-i-font-size);
+    }
+
+
+    div#img-container {
+        width: 35%;
+        height: 100%;
+    }
+
+
+    div#img-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+
+/* end menu desktop main */
