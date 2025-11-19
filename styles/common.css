@@ -1,0 +1,28 @@
+/* start common */
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+}
+
+
+a {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* end common */
