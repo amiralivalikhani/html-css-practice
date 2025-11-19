@@ -1,0 +1,207 @@
+/* start desktop variables */
+
+
+/* start bg video container variables */
+:root {
+    --bg-video-container-margin-zero: 0;
+}
+
+/* end bg video container variables */
+
+
+
+
+
+/* start desktop header variables */
+
+:root {
+    --desktop-header-margin: 1rem;
+}
+
+:root {
+    --desktop-header-padding: 2rem;
+}
+
+:root {
+    --desktop-header-font-color: #fefefe;
+}
+
+:root {
+    --desktop-header-font-size: 0.5rem;
+}
+
+:root {
+    --desktop-header-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --desktop-header-bg-color: rgba(0, 0, 0, 0.02);
+}
+
+:root {
+    --desktop-header-bg-filter: blur(2px);
+}
+
+:root {
+    --desktop-header-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+:root {
+    --desktop-header-content-margin-top: 8rem;
+}
+
+:root {
+    --desktop-header-content-font-size: 4rem;
+}
+
+:root {
+    --desktop-header-content-font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* end desktop header variables */
+
+
+
+
+
+/* start desktop main variables */
+:root {
+    --desktop-main-margin-zero: 0;
+}
+
+:root {
+    --desktop-main-mt: 200px;
+}
+
+:root {
+    --desktop-main-pt: 200px;
+}
+
+:root {
+    --desktop-main-content-font-size: 4rem;
+}
+
+:root {
+    --desktop-main-content-font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --desktop-main-models-font-size: 2rem;
+}
+
+:root {
+    --desktop-main-models-font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* end desktop main variables */
+
+
+
+
+
+/* start desktop spacer variables  */
+
+:root {
+    --desktop-spacer-margin-zero: 0;
+}
+
+:root {
+    --desktop-spacer-font-size: 2rem;
+}
+
+:root {
+    --desktop-spacer-font-family: cursive;
+}
+
+/* end desktop spaser variables */
+
+
+
+
+
+/* start desktop view variables */
+
+:root {
+    --desktop-view-content-margin: 0 auto 4rem auto;
+}
+
+:root {
+    --desktop-view-content-font-size: 4rem;
+}
+
+:root {
+    --desktop-view-content-font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --desktop-view-width: 100%;
+}
+
+:root {
+    --desktop-view-height: 100%;
+}
+
+:root {
+    --desktop-view-border-radius: 50%;
+}
+
+/* end desktop view variables */
+
+
+
+
+
+/* start desktop gallery variables */
+
+:root {
+    --desktop-gallery-gaps: 1rem;
+}
+
+:root {
+    --desktop-gallery-img-width: 100%;
+}
+
+:root {
+    --desktop-gallery-img-height: 100%;
+}
+
+/* end desktop gallery variables */
+
+
+
+
+
+/* sratrt desktop footer variables */
+
+:root {
+    --desktop-footer-mt: 64px;
+}
+
+:root {
+    --desktop-footer-pb: 48px;
+}
+
+:root {
+    --desktop-footer-links-font-size: 0.5rem;
+}
+
+:root {
+    --desktop-footer-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --desktop-footer-main-mt: 48px;
+}
+
+:root {
+    --desktop-footer-main-content-font-size: 1rem;
+}
+
+:root {
+    --desktop-footer-btm-font-size: 1rem;
+}
+
+/* end desktop footer variables */
+
+
+/* end variables */
