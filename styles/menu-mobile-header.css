@@ -1,0 +1,35 @@
+/* start menu mobile header */
+
+
+@media screen and (max-width: 500px) {
+
+
+    section.menu-desktop-header {
+        display: none;
+    }
+
+
+    section.menu-mobile-header {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    section.menu-mobile-header h1 {
+        font-family: var(--menu-mobile-header-font-family);
+        color: var(--menu-mobile-header-color);
+    }
+
+
+    section.menu-mobile-header i {
+        font-size: var(--menu-mobile-header-i-font-size);
+    }
+
+
+}
+
+
+/* end menu mobile header */
