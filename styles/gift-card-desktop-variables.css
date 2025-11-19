@@ -1,0 +1,61 @@
+/* start desktop gift card variables */
+
+
+:root {
+    --desktop-gift-card-content-mt: 48px;
+}
+
+:root {
+    --desktop-gift-card-content-font-size: 1.2rem;
+}
+
+:root {
+    --desktop-gift-card-content-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --desktop-gift-card-body-container-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --desktop-gift-card-body-container-input-p: 16px;
+}
+
+:root {
+    --desktop-gift-card-body-container-input-border-radius: 6px;
+}
+
+:root {
+    --desktop-gift-card-body-container-p-m: 64px;
+}
+
+:root {
+    --desktop-gift-card-body-container-p-font-size: 0.8rem;
+}
+
+:root {
+    --desktop-gift-card-body-container-button-p: 16px;
+}
+
+:root {
+    --desktop-gift-card-body-container-button-border-radius: 32px;
+}
+
+:root {
+    --desktop-gift-card-body-container-button-bg-color: black;
+}
+
+:root {
+    --desktop-gift-card-body-container-button-color: white;
+}
+
+:root {
+    --desktop-gift-card-body-container-button-font-size: 1.2rem;
+}
+
+:root {
+    --desktop-gift-card-body-container-button-mb: 48px;
+}
+
+
+/* end desktop gift card variables */
