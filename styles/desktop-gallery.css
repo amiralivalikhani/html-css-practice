@@ -1,0 +1,108 @@
+/* start desktop gallery */
+
+
+@media screen and (min-width: 500px) {
+
+
+    section.mobile-gallery {
+        display: none;
+    }
+
+
+    section.desktop-gallery {
+        margin: 0 16px;
+        display: flex;
+    }
+
+
+    div#desktop-gallery-left {
+        width: calc(55% - 16px);
+        margin-right: var(--desktop-gallery-gaps);
+    }
+
+
+    div#desktop-gallery-top {
+        height: 50%;
+        display: flex;
+    }
+
+
+    div#desktop-gallery-top-left {
+        width: calc(25% - 16px);
+        margin-right: var(--desktop-gallery-gaps);
+    }
+
+
+    div#wemen {
+        height: 35%;
+    }
+
+
+    div#wemen img {
+        width: var(--desktop-gallery-img-width);
+        height: var(--desktop-gallery-img-height);
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+
+
+    div#men {
+        height: calc(65% - 16px);
+        margin-top: var(--desktop-gallery-gaps);
+    }
+
+
+    div#men img {
+        width: var(--desktop-gallery-img-width);
+        height: var(--desktop-gallery-img-height);
+        border-radius: 32px;
+    }
+
+
+    div#desktop-gallery-top-right {
+        width: 75%;
+    }
+
+
+    div#desktop-gallery-top-right img {
+        width: var(--desktop-gallery-img-width);
+        height: var(--desktop-gallery-img-height);
+        border-top-right-radius: 45%;
+        border-bottom-left-radius: 45%;
+    }
+
+
+    div#desktop-gallery-bottom {
+        width: var(--desktop-gallery-img-width);
+        height: calc(50% - 16px);
+        margin-top: var(--desktop-gallery-gaps);
+    }
+
+
+    div#desktop-gallery-bottom img {
+        width: var(--desktop-gallery-img-width);
+        height: var(--desktop-gallery-img-height);
+        border-radius: 32px;
+    }
+
+
+
+    div#desktop-gallery-right {
+        width: 45%;
+    }
+
+
+    div#desktop-gallery-right img {
+        width: var(--desktop-gallery-img-width);
+        height: var(--desktop-gallery-img-height);
+        border-top-left-radius: 256px;
+        border-bottom-right-radius: 512px;
+        border-bottom-left-radius: 512px;
+    }
+
+
+}
+
+
+/* end desktop gallery */
