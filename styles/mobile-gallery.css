@@ -1,0 +1,62 @@
+/* start mobile gallery */
+
+
+@media screen and (max-width: 500px) {
+
+
+    section.desktop-gallery {
+        display: none;
+    }
+
+
+    section.mobile-gallery {
+        margin-top: var(--mobile-gallery-mt);
+    }
+
+
+    section.mobile-gallery div {
+        width: 95%;
+        margin: 16px auto;
+    }
+
+
+    section.mobile-gallery img {
+        width: 100%;
+    }
+
+
+    div#p1 img {
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+
+
+    div#p2 img {
+        border-radius: 64px;
+        height: 500px;
+    }
+
+
+    div#p3 img {
+        border-top-right-radius: 45%;
+        border-bottom-left-radius: 45%;
+    }
+
+
+    div#p4 img {
+        border-radius: 32px;
+    }
+
+
+    div#p5 img {
+        border-top-left-radius: 512px;
+        border-bottom-right-radius: 512px;
+        border-bottom-left-radius: 512px;
+    }
+
+
+}
+
+
+/* end mobile gallery */
