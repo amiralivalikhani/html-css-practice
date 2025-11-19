@@ -1,0 +1,148 @@
+/* start desktop view */
+
+
+@media screen and (min-width: 500px) {
+
+
+    section.mobile-view {
+        display: none;
+    }
+
+
+    div#desktop-view-content {
+        width: 60%;
+        margin: var(--desktop-view-content-margin);
+        font-size: var(--desktop-view-content-font-size);
+        font-family: var(--desktop-view-content-font-family);
+    }
+
+
+    div#desktop-view-gate {
+        width: 50%;
+        height: 100vh;
+        margin: auto;
+        background-image: url(../images-view/gate.webp);
+        background-size: cover;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    div#desktop-view-circle {
+        width: 50%;
+        height: 50%;
+        border-radius: var(--desktop-view-border-radius);
+
+    }
+
+    div#desktop-view-bg1 {
+        width: var(--desktop-view-width);
+        height: var(--desktop-view-height);
+        border-radius: var(--desktop-view-border-radius);
+        background-image: url(../images-view/bg1.webp);
+        background-size: cover;
+    }
+
+
+    div#desktop-view-bg2 {
+        width: var(--desktop-view-width);
+        height: var(--desktop-view-height);
+        border-radius: var(--desktop-view-border-radius);
+        background-image: url(../images-view/bg2.webp);
+        background-size: cover;
+    }
+
+
+    div#desktop-view-fork {
+        width: var(--desktop-view-width);
+        height: var(--desktop-view-height);
+        border-radius: var(--desktop-view-border-radius);
+        background-image: url(../images-view/fork.webp);
+        background-size: cover;
+    }
+
+
+    div#desktop-view-button-see-menu {
+        width: 50%;
+        height: 25%;
+    }
+
+
+    div#desktop-view-button-see-menu div {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        color: black;
+        position: relative;
+        border-top: 5px double black;
+        border-bottom: 5px double black;
+        border-radius: 50%;
+        animation: animation 1s infinite;
+    }
+
+
+    @keyframes animation {
+        0% {
+            border-color: black;
+        }
+
+        50% {
+            border-color: wheat;
+        }
+
+        100% {
+            border-color: black;
+        }
+    }
+
+
+    section.desktop-view {
+        position: relative;
+    }
+
+
+    #leaf,
+    #stone1,
+    #stone2,
+    #stone3,
+    #onion {
+        position: absolute;
+    }
+
+
+    div#leaf {
+        right: 5%;
+        top: 20%;
+    }
+
+
+    div#stone1 {
+        right: 28%;
+        top: 46%;
+    }
+
+
+    div#stone2 {
+        left: 20%;
+        top: 52%;
+    }
+
+
+    div#stone3 {
+        left: 27%;
+        bottom: 30%;
+    }
+
+
+    div#onion {
+        left: 5%;
+        bottom: 5%;
+    }
+
+
+}
+
+
+/* end desktop view */
