@@ -1,0 +1,38 @@
+/* start desktop spacer */
+
+
+@media screen and (min-width: 500px) {
+
+
+    section.mobile-spacer {
+        display: none;
+    }
+
+
+    section.desktop-spacer {
+        height: 128px;
+        background: linear-gradient(to right, #ebdccb, #d5e9e1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #desktop-spacer-left-box,
+    #desktop-spacer-right-box {
+        flex: 1;
+        text-align: center;
+        font-size: var(--desktop-spacer-font-size);
+        font-family: var(--desktop-spacer-font-family);
+    }
+
+
+    section.desktop-spacer h1 {
+        margin: var(--desktop-spacer-margin-zero);
+    }
+
+
+}
+
+
+/* end desktop spacer */
