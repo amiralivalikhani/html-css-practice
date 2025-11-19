@@ -1,0 +1,67 @@
+/* start mobile gift card */
+
+
+@media screen and (max-width: 500px) {
+
+
+    section.desktop-gift-card {
+        display: none;
+    }
+
+
+    div#content {
+        text-align: center;
+        margin-top: var(--mobile-gift-card-content-mt);
+        font-size: var(--mobile-gift-card-content-font-size);
+        font-family: var(--mobile-gift-card-content-font-family);
+    }
+
+
+    div#img-container {
+        text-align: center;
+        margin: 64px auto;
+    }
+
+
+    div#img-container img {
+        border: 3px solid whitesmoke;
+        border-radius: 16px;
+        box-shadow: 2px 2px 4px 4px rgba(90, 90, 90, 0.7);
+    }
+
+
+    div#body-container {
+        width: 95%;
+        margin: auto;
+        font-family: var(--mobile-gift-card-body-container-font-family);
+    }
+
+
+    div#body-container input {
+        width: 100%;
+        padding: var(--mobile-gift-card-body-container-input-p);
+        border-radius: var(--mobile-gift-card-body-container-input-border-radius);
+    }
+
+
+    div#body-container p {
+        margin: var(--mobile-gift-card-body-container-p-m);
+        font-size: var(--mobile-gift-card-body-container-p-font-size);
+        text-align: center;
+    }
+
+
+    div#body-container button {
+        width: 100%;
+        padding: var(--mobile-gift-card-body-container-button-p);
+        border-radius: var(--mobile-gift-card-body-container-button-border-radius);
+        background-color: var(--mobile-gift-card-body-container-button-bg-color);
+        color: var(--mobile-gift-card-body-container-button-color);
+        font-size: var(--mobile-gift-card-body-container-button-font-size);
+        margin-bottom: var(--mobile-gift-card-body-container-button-mb);
+    }
+
+
+}
+
+/* end mobile gift card */
