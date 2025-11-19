@@ -1,0 +1,99 @@
+/* start mobile view */
+
+
+@media screen and (max-width: 500px) {
+
+
+    section.desktop-view {
+        display: none;
+    }
+
+
+    div#mobile-view-content {
+        padding-top: var(--mobile-view-content-pt);
+        font-size: var(--mobile-view-content-font-size);
+        text-align: center;
+        font-family: var(--mobile-view-content-font-family);
+    }
+
+
+    div#mobile-view-gate {
+        position: relative;
+    }
+
+
+    div#mobile-view-gate img {
+        width: 100%;
+    }
+
+
+    div#mobile-view-circle {
+        width: 90%;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    div#mobile-view-bg1 {
+        width: var(--mobile-view-width);
+        height: var(--mobile-view-height);
+        border-radius: 50%;
+        background-image: url(../images-view/bg1.webp);
+        background-size: cover;
+    }
+
+
+    div#mobile-view-bg2 {
+        width: var(--mobile-view-width);
+        height: var(--mobile-view-height);
+        border-radius: var(--desktop-view-border-radius);
+        background-image: url(../images-view/bg2.webp);
+        background-size: cover;
+    }
+
+
+    div#mobile-view-fork {
+        width: var(--mobile-view-width);
+        height: var(--mobile-view-height);
+        border-radius: 50%;
+        background-image: url(../images-view/fork.webp);
+        background-size: cover;
+    }
+
+
+    div#mobile-view-button-see-menu div {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        color: black;
+        position: relative;
+        border-top: 5px double black;
+        border-bottom: 5px double black;
+        border-radius: 50%;
+        animation: animation 1s infinite;
+    }
+
+
+    @keyframes animation {
+        0% {
+            border-color: black;
+        }
+
+        50% {
+            border-color: wheat;
+        }
+
+        100% {
+            border-color: black;
+        }
+    }
+
+
+}
+
+
+/* end mobile view */
