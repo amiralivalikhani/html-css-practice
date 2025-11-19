@@ -1,0 +1,33 @@
+/* satrt mobile spacer */
+
+
+@media screen and (max-width: 500px) {
+
+
+    section.desktop-spacer {
+        display: none;
+    }
+
+
+    section.mobile-spacer {
+        height: 64px;
+        background: linear-gradient(to right, #ebdccb, #d5e9e1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #mobile-spacer-left-box,
+    #mobile-spacer-right-box {
+        flex: 1;
+        text-align: center;
+        font-size: var(--mobile-spacer-font-size);
+        font-family: var(--mobile-spacer-font-family);
+    }
+
+
+}
+
+
+/* end mobile spacer */
