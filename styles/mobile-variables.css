@@ -1,0 +1,169 @@
+/* start mobile variables */
+
+
+/* start mobile header variables */
+
+:root {
+    --mobile-header-pt: 32px;
+}
+
+:root {
+    --mobile-header-color: #fefefe;
+}
+
+:root {
+    --mobile-header-content-mt: 150px;
+}
+
+:root {
+    --mobile-header-content-font-size: 2.5rem;
+}
+
+:root {
+    --mobile-header-content-font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* end mobile header variables */
+
+
+
+
+
+/* start mobile maine variables */
+
+:root {
+    --mobile-main-margin-zero: 0:
+}
+
+:root {
+    --mobile-main-pt: 64px;
+}
+
+:root {
+    --mobile-main-content-font-size: 28px;
+}
+
+:root {
+    --mobile-main-font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --mobile-main-models-container-mt: 150px;
+}
+
+:root {
+    --mobile-main-models-container-gaps: 16px;
+}
+
+:root {
+    --mobile-main-models-container-paddinig: 16px;
+}
+
+:root {
+    --mobile-main-figure-font-size: 1.5rem;
+}
+
+/* end mobile maine variables */
+
+
+
+
+
+/* start mobile spacer variables */
+
+:root {
+    --mobile-spacer-font-size: 12px;
+}
+
+:root {
+    --mobile-spacer-font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* end mobile spacer variables */
+
+
+
+
+
+/* start mobile view variables */
+
+:root {
+    --mobile-view-content-pt: 2rem;
+}
+
+:root {
+    --mobile-view-content-font-size: 2.5rem;
+}
+
+:root {
+    --mobile-view-content-font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --mobile-view-width: 100%;
+}
+
+:root {
+    --mobile-view-height: 100%;
+}
+
+/* end mobile view variables */
+
+
+
+
+
+/* start mobile gallery variables */
+
+:root {
+    --mobile-gallery-mt: 64px;
+}
+
+/* end mobile gallery variables */
+
+
+
+
+
+/* start mobile footer variables */
+
+:root {
+    --mobile-footer-mt: 64px;
+}
+
+:root {
+    --mobile-footer-links-font-size: 0.5rem;
+}
+
+:root {
+    --mobile-footer-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --mobile-footer-logo-mt: 48px;
+}
+
+:root {
+    --mobile-footer-main-content-mt: 32px;
+}
+
+:root {
+    --mobile-footer-main-content-p: 32px;
+}
+
+:root {
+    --mobile-footer-main-content-boxs-color: #fefefe;
+}
+
+:root {
+    --mobile-footer-main-content-boxs-font-size: 0.5rem;
+}
+
+:root {
+    --mobile-footer-btm-content-boxs-font-size: 0.8rem;
+}
+
+/* end mobile footer variables */
+
+
+/* end mobile variables */
