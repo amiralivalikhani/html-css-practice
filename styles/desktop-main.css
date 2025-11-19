@@ -1,0 +1,87 @@
+/* start desktop main */
+
+
+@media screen and (min-width: 500px) {
+
+
+    section.mobile-main {
+        display: none;
+    }
+
+
+    section.desktop-main {
+        text-align: center;
+        margin: var(--desktop-main-margin-zero);
+        padding-top: var(--desktop-main-pt);
+        background-image: url(../images-main/falafel-bowl-bg.webp);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+
+    div#desktop-main-content {
+        margin: var(--desktop-main-margin-zero);
+    }
+
+
+    div#desktop-main-content p {
+        margin: var(--desktop-main-margin-zero);
+        opacity: 0;
+        transform: translateX(-100%);
+        animation: fadeUp 3s ease forwards;
+        animation-timeline: scroll(y);
+        animation-range: entry 0% cover 20%;
+        line-height: 1.5;
+        font-size: var(--desktop-main-content-font-size);
+        font-family: var(--desktop-main-content-font-family);
+    }
+
+
+    @keyframes fadeUp {
+        from {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+
+    div#desktop-main-models-container {
+        margin-top: var(--desktop-main-mt);
+        display: flex;
+        overflow-x: auto;
+        scrollbar-width: none;
+        gap: 16px;
+    }
+
+
+    figure h2 {
+        font-size: var(--desktop-main-models-font-size);
+        font-family: var(--desktop-main-models-font-family);
+    }
+
+
+    figure {
+        animation: scroll 20s linear infinite forwards;
+    }
+
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-910%);
+        }
+    }
+
+
+}
+
+
+/* end desktop main */
